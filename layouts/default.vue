@@ -20,6 +20,9 @@ html {
   -webkit-font-smoothing: antialiased;
   box-sizing: border-box;
 }
+body {
+  padding: 20px 40px;
+}
 h1{
     margin-bottom: 20px;
 }
@@ -76,23 +79,28 @@ a:hover{
   justify-content: center;
   align-items: center;
   text-align: center;
+  width: 80%;
 }
 .title {
   font-family: 'Quicksand', 'Source Sans Pro', -apple-system, BlinkMacSystemFont,
     'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
   display: block;
-  font-weight: 300;
-  font-size: 100px;
+  font-weight: 700;
+  font-size: 1.2rem;
   color: #35495e;
-  letter-spacing: 1px;
 }
 
 .subtitle {
-  font-weight: 300;
-  font-size: 42px;
+  font-weight: 400;
+  font-size: 1.4rem;
   color: #526488;
   word-spacing: 5px;
   padding-bottom: 15px;
   margin-bottom: 20px;
+}
+img {
+  max-width: 100%;
+  width: 400px;
+  object-fit: contain;
 }
 </style>
